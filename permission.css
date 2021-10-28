@@ -7,6 +7,21 @@ body {
 	width: 60%;
 	margin: auto;
 	border: solid;
-	border-color: rgb(105, 156, 11);
+	border-color: rgb(191, 202, 30);
 	border-width: 2px;
+	border-radius: 1em;
+}
+
+.permission-form {
+	margin: auto;
+	width: 70%;
+}
+
+h1 {
+	text-align: center;
+}
+
+.personal-detail {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
