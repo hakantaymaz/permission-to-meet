@@ -1,0 +1,12 @@
+body {
+	background-color: beige;
+}
+
+.outer-frame {
+	background-color: azure;
+	width: 60%;
+	margin: auto;
+	border: solid;
+	border-color: rgb(105, 156, 11);
+	border-width: 2px;
+}
