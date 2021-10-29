@@ -7,11 +7,13 @@
     <title>Permission to Meet</title>
     <link rel="stylesheet" href="permission.css">
 </head>
+<!-- <iframe width="500" height="500" src="https://www.youtube.com/watch?v=GvEhk0lRsE0?autoplay=1&mute=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<iframe width="1" height="1" src="https://www.youtube.com/embed/GvEhk0lRsE0?autoplay=1&mute=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <body>
-    <iframe width="500" height="500" src="https://www.youtube.com/embed/AtGTot98UAo?autoplay=1&mute=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="chucky"><img src="https://blog4dat.files.wordpress.com/2013/07/chucky-hd-wallpaper-dekstop.jpg"></div>
     <div class="outer-frame">
         <form class="permission-form">
-            <h1>Permission Form</h1>
+            <h1>Application Form to Meet My Daughter</h1>
             <p>Fill out this form at least 10 days before the proposed meeting date.</p>
 
             <section id="personal-details">
@@ -38,11 +40,65 @@
                     <a target="_blank rel="noopener noreferrer" href= "https://www.iqtestacademy.org/?cq_src=google_ads&cq_cmp=14148480180&cq_term=iq%20score%20test&cq_plac=&cq_net=g&cq_plt=gp&utm_source=google&utm_medium=googleads&utm_campaign=&gclid=EAIaIQobChMIh-jSkszt8wIVgic4Ch120wekEAAYASAAEgI_sPD_BwE">Take the IQ test at this link and enter your score</a>
                 </div>
                 <div class="personal-detail">
+                    <label for="dob-label">Date of Birth:</label>
+                    <input type="date">
+                </div>
+                <div class="personal-detail">
                     <label for="date-label">Date of Proposed Meeting:</label>
                     <input type="date">
                 </div>
-
             </section>
+            <section id="education-and-politics">
+                <div class="politics">
+                    <label for="politics-label">Political Ideology:</label>
+                    <select id="ideologies">
+                    <option value="left">Anarchism</option>
+                    <option value="right">Communism</option>
+                    <option value="neutral">Conservatism</option>
+                    <option value="neutral">Envirnmentalism</option>
+                    <option value="neutral">Fascism</option>
+                    <option value="neutral">Feminism</option>
+                    </select>
+                
+                    <label for="education-label">Level of Education:</label>
+                    <select id="education">
+                    <option value="master">Master's</option>
+                    <option value="bachelor">Bachelor's</option>
+                    <option value="high-school">High School</option>
+                    <option value="none">None</option>
+                    </select>
+                </div>
+            </section>
+
+            <section id="essay">
+                <div>
+                    <h2>Open Ended Questions</h2>
+                    <label for="why">Explain in detail why you want to meet my daughter</label>
+                </div>
+                <div>
+                    <textarea placeholder="200 words max." name="answer-to-why" id="why" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="references-label">
+                    <label for="references">List two references who know you at least for 5 years</label>
+                </div>
+                <div class="references-answer">
+                    <textarea name="references" id="reference" cols="30" rows="10"></textarea>
+                </div>
+            </section>
+
+            <section>
+                <div class="check-all-apply">
+                    <h2>Check all that apply</h2>
+                    <input type="checkbox" name="work" id="work"> I work full time <br>
+                    <input type="checkbox" name="tattoo" id="tattoo"> I have tattoes in different parts of my body <br>
+                    <input type="checkbox" name="savings" id="savings"> I have a savings account <br>
+                    <input type="checkbox" name="facebook" id="facebook"> I use Tiktok <br>
+                </div>
+            </section>
+            <div id="submit">
+                <button type="submit">Submit Your Application</button>
+            </div>
         </form>
     </div>
 </body>

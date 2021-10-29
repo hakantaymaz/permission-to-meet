@@ -10,6 +10,7 @@ body {
 	border-color: rgb(191, 202, 30);
 	border-width: 2px;
 	border-radius: 1em;
+	position: relative;
 }
 
 .permission-form {
@@ -24,4 +25,72 @@ h1 {
 .personal-detail {
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+#personal-details {
+	border: solid;
+	border-width: 1px;
+	border-radius: 1em;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 30px;
+	border-color: rgb(191, 202, 30);
+	/* position: relative; */
+	padding: 10px;
+	padding-top: 0;
+}
+
+#education-and-politics {
+	border: solid;
+	border-width: 1px;
+	border-radius: 1em;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 30px;
+	border-color: rgb(191, 202, 30);
+	/* position: relative; */
+	padding: 10px;
+}
+
+#ideologies {
+	margin-right: 20px;
+}
+
+#why {
+	margin-top: 20px;
+}
+
+.references-answer,
+.references-label {
+	margin-top: 20px;
+}
+
+#essay {
+	border: solid;
+	border-width: 1px;
+	border-radius: 1em;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 30px;
+	border-color: rgb(191, 202, 30);
+	/* position: relative; */
+	padding: 10px;
+}
+
+.check-all-apply {
+	border: solid;
+	border-width: 1px;
+	border-radius: 1em;
+	width: 100%;
+	/* margin: auto; */
+	margin-bottom: 30px;
+	border-color: rgb(191, 202, 30);
+	/* position: relative; */
+	padding: 10px;
+}
+
+#submit {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
 }
